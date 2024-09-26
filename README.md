@@ -56,7 +56,7 @@ aws lambda update-function-configuration \
 
 curl -X POST <your-url> \
      -H "Content-Type: application/json" \
-     -d '{"html": "<h1>Hello, WeasyPrint!</h1><p>This is a test payload.</p>"}'
+     -d '{"html": ""}'
 
 
 
