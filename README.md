@@ -54,7 +54,7 @@ aws lambda update-function-configuration \
 
 # Step 5:
 
-curl -X POST <your-url> \
+curl -X POST https://xxxxx.execute-api.eu-central-1.amazonaws.com/dev/convert \
      -H "Content-Type: application/json" \
      -d '{"html": ""}'
 
